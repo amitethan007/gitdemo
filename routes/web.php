@@ -20,10 +20,12 @@ Route::get('/forgotpassword', function () {
     return view('forgotpassword');
 });
 
-
-Route::get('/forgotpassword-for-release-1', function () {
+Route::get('/forgotpassword-for-release-1-again', function () {
     return view('forgotpassword');
 });
 
 
+Route::get('/release-2-feature', function () {
+    return view('forgotpassword');
+});
 
