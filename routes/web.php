@@ -19,3 +19,11 @@ Route::get('/', function () {
 Route::get('/forgotpassword', function () {
     return view('forgotpassword');
 });
+
+
+Route::get('/forgotpassword-for-release-1', function () {
+    return view('forgotpassword');
+});
+
+
+
