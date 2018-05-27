@@ -13,6 +13,7 @@
 
 
 
+
 Route::get('/feature1', function () {
     return view('feature1');
 });
@@ -21,17 +22,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/forgotpassword', function () {
-    return view('forgotpassword');
-});
-
-Route::get('/forgotpassword-for-release-1-again', function () {
-    return view('forgotpassword');
-});
-
-
-Route::get('/release-2-feature', function () {
-    return view('forgotpassword');
+Route::get('/feature2', function () {
+    return view('feature2');
 });
 
