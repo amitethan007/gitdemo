@@ -41,6 +41,6 @@ Route::get('/feature1-feature2-feature4', function () {
 });
 
 Route::get('/feature5', function () {
-    return view('feature5');
+    return view('feature5 - feature 5.1');
 });
 
