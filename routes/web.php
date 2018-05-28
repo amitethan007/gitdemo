@@ -40,3 +40,7 @@ Route::get('/feature1-feature2-feature4', function () {
     return view('feature1feature2');
 });
 
+Route::get('/feature5', function () {
+    return view('feature5');
+});
+
