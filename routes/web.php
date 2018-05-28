@@ -31,3 +31,8 @@ Route::get('/feature1-feature2', function () {
     return view('feature1feature2');
 });
 
+
+Route::get('/feature1-feature2-feature3', function () {
+    return view('feature1feature2');
+});
+
